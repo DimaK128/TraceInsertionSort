@@ -27,7 +27,6 @@ public class InsertionSortTrace {
         }
     }
 
-    // Method to print array with highlighting the affected element
     public static void printArrayWithHighlight(int[] array, int iteration, int affectedIndex) {
         System.out.print("After iteration " + iteration + ": ");
         for (int i = 0; i < array.length; i++) {
